@@ -201,6 +201,10 @@ dd {
   margin-left: 0;
 }
 
+blockquote {
+  margin: 0 0 1rem;
+}
+
 b,
 strong {
   font-weight: bolder;
@@ -574,6 +578,29 @@ progress {
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
+}
+
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+.blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.blockquote-footer {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: #6c757d;
+}
+.blockquote-footer::before {
+  content: "— ";
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -6427,6 +6454,10 @@ textarea.form-control-lg {
   display: inline-flex !important;
 }
 
+.d-none {
+  display: none !important;
+}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
@@ -7320,6 +7351,10 @@ textarea.form-control-lg {
 
 .fw-bold {
   font-weight: 700 !important;
+}
+
+.fw-bolder {
+  font-weight: bolder !important;
 }
 
 .lh-1 {
@@ -11164,6 +11199,21 @@ header.masthead .site-heading .h1 {
   header.masthead .post-heading .subheading {
     font-size: 1.875rem;
   }
+}
+
+.section-heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 3.75rem;
+}
+
+.caption {
+  font-size: 0.875rem;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 0.625rem;
+  text-align: center;
 }
 
 .post-preview > a {
