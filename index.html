@@ -16,9 +16,7 @@
 				crossorigin="anonymous"
 			></script> -->
 		<script src="assets/fontawesome/js/all.js"></script>
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<!-- Google fonts-->
 		<link
 			href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
@@ -35,14 +33,47 @@
 	</head>
 	<body>
 		<!-- Navigation-->
-		<div id="navbar"><link href="assets/css/styles.css" rel="stylesheet" /></div>
-		<script>
-			window.onload = function(){
-					$.get("navbar.html", function(data){
-							$("#navbar").html(data);
-					})
-			}
-	</script>
+		<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+			<div class="container px-4 px-lg-5">
+				<a class="navbar-brand" href="index.html">Start Reading</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarResponsive"
+					aria-controls="navbarResponsive"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					Menu
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ms-auto py-4 py-lg-0">
+						<li class="nav-item">
+							<a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html"
+								>Sample Post</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<!-- Page Header-->
 		<header
 			class="masthead"
