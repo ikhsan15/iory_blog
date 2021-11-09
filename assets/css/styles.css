@@ -11246,3 +11246,55 @@ header.masthead .site-heading .h1 {
     font-size: 2.25rem;
   }
 }
+
+
+/* ============================== */
+/* .progress-wrap{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+} */
+
+/* #Progress
+================================================== */
+
+/* Back To Top CSS */
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 991px){
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.back-to-top a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  min-width: 42px;
+  min-height: 42px;
+  line-height: 42px;
+  border-radius: 42px;
+  background-color: #212529;
+  transition: background-color .3s;
+}
+
+.back-to-top a:hover {
+  background-color: #0085A1;
+}

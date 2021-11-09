@@ -27,3 +27,25 @@ window.addEventListener('DOMContentLoaded', () => {
     scrollPos = currentTop;
   });
 })
+
+// ============================
+
+$(document).ready(function () {
+  let backtotopButton = $('#back-to-top');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      backtotopButton.parent().addClass('show');
+    } else {
+      backtotopButton.parent().removeClass('show');
+    }
+  });
+
+  backtotopButton.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: 0
+    }, '300');
+  });
+
+})
