@@ -50,7 +50,7 @@
 							</h2>
 							<span class="meta">
 								Posted by
-								<a href="#!">Start Bootstrap</a>
+								<a href="#!">IORY</a>
 								on August 24, 2021
 							</span>
 						</div>

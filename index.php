@@ -44,8 +44,8 @@
 				<div class="row gx-4 gx-lg-5 justify-content-center">
 					<div class="col-md-10 col-lg-8 col-xl-7">
 						<div class="site-heading">
-							<h1>Clean Blog</h1>
-							<span class="subheading">A Blog Theme by Start Bootstrap</span>
+							<h1>IORY Blog</h1>
+							<span class="subheading">A Blog Theme by IORY</span>
 						</div>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 						</a>
 						<p class="post-meta">
 							Posted by
-							<a href="#!">Start Bootstrap</a>
+							<a href="#!">IORY</a>
 							on September 24, 2021
 						</p>
 					</div>
@@ -84,7 +84,7 @@
 						>
 						<p class="post-meta">
 							Posted by
-							<a href="#!">Start Bootstrap</a>
+							<a href="#!">IORY</a>
 							on September 18, 2021
 						</p>
 					</div>
@@ -101,7 +101,7 @@
 						</a>
 						<p class="post-meta">
 							Posted by
-							<a href="#!">Start Bootstrap</a>
+							<a href="#!">IORY</a>
 							on August 24, 2021
 						</p>
 					</div>
@@ -118,7 +118,7 @@
 						</a>
 						<p class="post-meta">
 							Posted by
-							<a href="#!">Start Bootstrap</a>
+							<a href="#!">IORY</a>
 							on July 8, 2021
 						</p>
 					</div>

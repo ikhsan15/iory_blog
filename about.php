@@ -58,22 +58,19 @@
 				<div class="row gx-4 gx-lg-5 justify-content-center">
 					<div class="col-md-10 col-lg-8 col-xl-7">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-							nostrum ullam eveniet pariatur voluptates odit, fuga atque ea
-							nobis sit soluta odio, adipisci quas excepturi maxime quae totam
-							ducimus consectetur?
+							Hello, nama online gw "sans buster", singkatnya "sans", nama itu gw pake sejak gw beranjak masuk ke SMP.
+							Awalnya gw pake untuk nickname in game, akun fb & twitter dan email pribadi gw.
+							"sans" sendiri gw ambil dari nama panggilan gw yg biasa orang-orang panggil, "san", s diakhir gw tambahin biar keren aja gitu, lol.
+							kalau "buster" gw ambil dari nama karakter di anime Fairy Tail, Gray Fullbuster.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-							praesentium recusandae illo eaque architecto error, repellendus
-							iusto reprehenderit, doloribus, minus sunt. Numquam at quae
-							voluptatum in officia voluptas voluptatibus, minus!
+							Sebenarnya udah dari dulu pengen bikin blog sendiri, bukan dari blogspot gitu, tapi gagal dan selalu berhenti di tengah jalan.
+							Buat gw blog itu sebagai sarana untuk menuliskan apa yg lu pikirkan saat itu, so gw bisa mengingat lagi apa yg pernah gw pikirkan,
+							atau cuma sebagai keisengan gw merangkai kata menjadi kalimat yang gk beraturan dan gk jelas maknanya, lmao.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-							consequuntur magnam, excepturi aliquid ex itaque esse est vero
-							natus quae optio aperiam soluta voluptatibus corporis atque iste
-							neque sit tempora!
+							Gw suka menulis, membuat coretan di atas kertas putih dan menggabungkan sesuatu menjadi objek baru, tapi gw bukan seorang expert dalam hal itu.
+							Gw suka sesuatu yg gw gk bisa, karena dengan itu gw semangat untuk bisa, yaa terkadang berat sih, tapi gw senang aja ngelakuinnya. Hihihi.
 						</p>
 					</div>
 				</div>

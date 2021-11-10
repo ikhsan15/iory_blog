@@ -1,7 +1,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
   <div class="container px-4 px-lg-5">
-    <a class="navbar-brand" href="index.php">Start Reading</a>
+    <a class="navbar-brand" href="index.php">Welcome to IORY</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -28,7 +28,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link px-lg-3 py-3 py-lg-4" href="post.php"
-            >Sample Post</a
+            >Post</a
           >
         </li>
         <li class="nav-item">
