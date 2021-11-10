@@ -11,14 +11,12 @@
 <!-- partial:index.partial.html -->
 <div class="container">
   <div class="card" style="--cards:5">
+  <a href="index.php">
     <div class="child">
       <h2>Why do I need a will</h2>
       <p>5 articles</p>
     </div>
-    <div class="child"></div>
-    <div class="child"></div>
-    <div class="child"></div>
-    <div class="child"></div>
+    </a>
   </div>
   <div class="card" style="--cards:3">
     <div class="child">
