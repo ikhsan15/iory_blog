@@ -32,9 +32,10 @@
 		<link href="assets/css/styles.css" rel="stylesheet" />
 	</head>
 	<body>
-		<!-- Navigation-->
+		<!-- Navigation - start -->
 		<?php include("views/navbar.php"); ?>
-		<!-- Page Header-->
+		<!-- Navigation - end -->
+		<!-- Page Header - start -->
 		<header
 			class="masthead"
 			style="background-image: url('assets/img/home-bg.jpg')"
@@ -50,13 +51,14 @@
 				</div>
 			</div>
 		</header>
-		<!-- Main Content-->
+		<!-- Page Header - end -->
+		<!-- Main Content - start -->
 		<div class="container px-4 px-lg-5">
 			<div class="row gx-4 gx-lg-5 justify-content-center">
 				<div class="col-md-10 col-lg-8 col-xl-7">
 					<!-- Post preview-->
 					<div class="post-preview">
-						<a href="post.html">
+						<a href="post.php">
 							<h2 class="post-title">
 								Man must explore, and this is exploration at its greatest
 							</h2>
@@ -74,7 +76,7 @@
 					<hr class="my-4" />
 					<!-- Post preview-->
 					<div class="post-preview">
-						<a href="post.html"
+						<a href="post.php"
 							><h2 class="post-title">
 								I believe every human has a finite number of heartbeats. I don't
 								intend to waste any of mine.
@@ -90,7 +92,7 @@
 					<hr class="my-4" />
 					<!-- Post preview-->
 					<div class="post-preview">
-						<a href="post.html">
+						<a href="post.php">
 							<h2 class="post-title">Science has not yet mastered prophecy</h2>
 							<h3 class="post-subtitle">
 								We predict too much for the next year and yet far too little for
@@ -107,7 +109,7 @@
 					<hr class="my-4" />
 					<!-- Post preview-->
 					<div class="post-preview">
-						<a href="post.html">
+						<a href="post.php">
 							<h2 class="post-title">Failure is not an option</h2>
 							<h3 class="post-subtitle">
 								Many say exploration is part of our destiny, but it’s actually
@@ -131,50 +133,17 @@
 				</div>
 			</div>
 		</div>
-		<!-- Footer-->
-		<footer class="border-top">
-			<div class="container px-4 px-lg-5">
-				<div class="row gx-4 gx-lg-5 justify-content-center">
-					<div class="col-md-10 col-lg-8 col-xl-7">
-						<ul class="list-inline text-center">
-							<li class="list-inline-item">
-								<a href="#!">
-									<span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://www.instagram.com/ikhsan15nur/">
-									<span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://github.com/ikhsan15">
-									<span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-github fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-						</ul>
-						<div class="small text-center text-muted fst-italic">
-							Copyright &copy; IORY 2021
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- back-to-top -->
+		<!-- Main Content - end -->
+		<!-- Footer - start -->
+		<?php include("views/footer.php"); ?>
+		<!-- Footer - end -->
+		<!-- back-to-top - start -->
 		<div class="back-to-top">
 			<a href="#" id="back-to-top"
 				><i class="fa fa-chevron-up" aria-hidden="true"></i
 			></a>
 		</div>
+		<!-- back-to-top - end -->
 		<!-- Bootstrap core JS-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<!-- Core theme JS-->

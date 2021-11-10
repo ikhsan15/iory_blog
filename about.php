@@ -32,49 +32,10 @@
 		<link href="assets/css/styles.css" rel="stylesheet" />
 	</head>
 	<body>
-		<!-- Navigation-->
-		<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-			<div class="container px-4 px-lg-5">
-				<a class="navbar-brand" href="index.html">Start Bootstrap</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarResponsive"
-					aria-controls="navbarResponsive"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					Menu
-					<i class="fas fa-bars"></i>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ms-auto py-4 py-lg-0">
-						<li class="nav-item">
-							<a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html"
-								>Home</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html"
-								>About</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html"
-								>Sample Post</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html"
-								>Contact</a
-							>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- Page Header-->
+		<!-- Navigation - start -->
+		<?php include("views/navbar.php"); ?>
+		<!-- Navigation - end -->
+		<!-- Page Header - start -->
 		<header
 			class="masthead"
 			style="background-image: url('assets/img/about-bg.jpg')"
@@ -90,7 +51,8 @@
 				</div>
 			</div>
 		</header>
-		<!-- Main Content-->
+		<!-- Page Header - end -->
+		<!-- Main Content - start -->
 		<main class="mb-4">
 			<div class="container px-4 px-lg-5">
 				<div class="row gx-4 gx-lg-5 justify-content-center">
@@ -117,50 +79,16 @@
 				</div>
 			</div>
 		</main>
-		<!-- Footer-->
-		<footer class="border-top">
-			<div class="container px-4 px-lg-5">
-				<div class="row gx-4 gx-lg-5 justify-content-center">
-					<div class="col-md-10 col-lg-8 col-xl-7">
-						<ul class="list-inline text-center">
-							<li class="list-inline-item">
-								<a href="#!">
-									<span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://www.instagram.com/ikhsan15nur">
-									<span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a href="https://github.com/ikhsan15">
-									<span class="fa-stack fa-lg">
-										<i class="fas fa-circle fa-stack-2x"></i>
-										<i class="fab fa-github fa-stack-1x fa-inverse"></i>
-									</span>
-								</a>
-							</li>
-						</ul>
-						<div class="small text-center text-muted fst-italic">
-							Copyright &copy; Your Website 2021
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<!-- Main Content - end -->
+		<!-- Footer - start -->
+		<?php include("views/footer.php"); ?>
 		<!-- back-to-top -->
 		<div class="back-to-top">
 			<a href="#" id="back-to-top"
 				><i class="fa fa-chevron-up" aria-hidden="true"></i
 			></a>
 		</div>
+		<!-- back-to-top - end -->
 		<!-- Bootstrap core JS-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<!-- Core theme JS-->
