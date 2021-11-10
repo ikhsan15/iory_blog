@@ -10,11 +10,12 @@
   <!-- partial:index.partial.html -->
   <div class="container">
     <div class="card" style="--cards:5">
-    <a href="../../index.php">
-      <div class="child">
-        <h2>Back to Home</h2>
-        <p>home :)</p>
-      </div>
+      <a href="../../index.php">
+        <div class="child" id="gohome">
+          <h2>Back to</h2>
+          <p>home :)</p>
+        </div>
+        <div class="child"></div>
       </a>
     </div>
     <div class="card" style="--cards:3">
