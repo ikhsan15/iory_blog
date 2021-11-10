@@ -27,7 +27,7 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link px-lg-3 py-3 py-lg-4" href="post.php"
+          <a class="nav-link px-lg-3 py-3 py-lg-4" href="views/posts/post_portal.php"
             >Post</a
           >
         </li>
