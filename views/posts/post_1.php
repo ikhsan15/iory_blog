@@ -11,11 +11,7 @@
 		<title>IORY - Iseng of stORY</title>
 		<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 		<!-- Font Awesome icons (free version)-->
-		<!-- <script
-			src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-			crossorigin="anonymous"
-		></script> -->
-		<script src="assets/fontawesome/js/all.js"></script>
+		<script src="../../assets/fontawesome/js/all.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<!-- Google fonts-->
 		<link
@@ -29,16 +25,16 @@
 			type="text/css"
 		/>
 		<!-- Core theme CSS (includes Bootstrap)-->
-		<link href="assets/css/styles.css" rel="stylesheet" />
+		<link href="../../assets/css/styles.css" rel="stylesheet" />
 	</head>
 	<body>
 		<!-- Navigation - start -->
-		<?php include("views/navbar.php"); ?>
+		<?php include("../navbar.php"); ?>
 		<!-- Navigation - end -->
 		<!-- Page Header - start -->
 		<header
 			class="masthead"
-			style="background-image: url('assets/img/post-bg.jpg')"
+			style="background-image: url('../../assets/img/post-bg.jpg')"
 		>
 			<div class="container position-relative px-4 px-lg-5">
 				<div class="row gx-4 gx-lg-5 justify-content-center">
@@ -130,7 +126,7 @@
 						<a href="#!"
 							><img
 								class="img-fluid"
-								src="assets/img/post-sample-image.jpg"
+								src="../../assets/img/post-sample-image.jpg"
 								alt="..."
 						/></a>
 						<span class="caption text-muted"
@@ -162,7 +158,7 @@
 		</article>
 		<!-- Main Content - end -->
 		<!-- Footer - start -->
-		<?php include("views/footer.php"); ?>
+		<?php include("../footer.php"); ?>
 		<!-- back-to-top -->
 		<div class="back-to-top">
 			<a href="#" id="back-to-top"
@@ -173,6 +169,6 @@
 		<!-- Bootstrap core JS-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<!-- Core theme JS-->
-		<script src="assets/js/scripts.js"></script>
+		<script src="../../assets/js/scripts.js"></script>
 	</body>
 </html>

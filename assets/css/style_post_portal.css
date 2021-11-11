@@ -44,6 +44,9 @@ p {
   --translate: calc(-1px * (var(--cards) - 1));
   transition: transform 0.3s ease;
 }
+.child p{
+  color: #495456;
+}
 div #gohome:hover{
   background: #0085A1;
 }
