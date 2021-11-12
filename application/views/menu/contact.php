@@ -130,7 +130,7 @@
 <!-- back-to-top -->
 <div class="back-to-top">
 	<a href="#" id="back-to-top"
-		><i class="fa fa-chevron-up" aria-hidden="true"></i
+		><i class="fa fa-chevron-up" aria-hidden="true" id="arrowTop"></i
 	></a>
 </div>
 <!-- back-to-top - end -->
