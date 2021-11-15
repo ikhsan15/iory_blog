@@ -2,7 +2,7 @@
 <html lang="en" >
   <head>
     <meta charset="UTF-8">
-    <title>CodePen - Article Deck</title>
+    <title>IORY - Iseng of stORY</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <!-- <link rel="stylesheet" href="../../assets/css/style_post_portal.css"> -->
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/style_post_portal.css'; ?>">

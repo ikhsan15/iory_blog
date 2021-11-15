@@ -1,7 +1,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
 	<div class="container px-4 px-lg-5">
-		<a class="navbar-brand" href="<?php echo base_url();?>">Welcome to IORY</a>
+		<a class="navbar-brand" href="<?php echo base_url(); ?>">Welcome to IORY</a>
 		<button
 			class="navbar-toggler"
 			type="button"

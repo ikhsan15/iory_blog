@@ -24,7 +24,7 @@
 		<div class="col-md-10 col-lg-8 col-xl-7">
 			<!-- Post preview-->
 			<div class="post-preview">
-				<a href="<?php echo base_url(); ?>PostLinks/contentSatu/">
+				<a href="<?php echo base_url(); ?>PostLinks/contentSatu">
 					<h2 class="post-title">
 						Man must explore, and this is exploration at its greatest
 					</h2>
