@@ -20,7 +20,7 @@
         </a>
       </div>
       <div class="card" style="--cards:3">
-        <a href="post_1.php">
+        <a href="<?php echo base_url(); ?>PostLinks">
           <div class="child">
             <h2>If only writing were so easy</h2>
             <p>3 articles</p>

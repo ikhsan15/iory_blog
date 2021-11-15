@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<?php	include_once "menu/head.php"; ?>
-	</head>
-	<body>
-		<!-- Navigation - start -->
-		<?php	include_once "menu/navbar.php"; ?>
-		<!-- Navigation - end -->
 		<!-- Page Header - start -->
 		<header
 			class="masthead"
@@ -133,8 +124,6 @@
 			</div>
 		</article>
 		<!-- Main Content - end -->
-		<!-- Footer - start -->
-		<?php	include_once "menu/footer.php"; ?>
 		<!-- back-to-top -->
 		<div class="back-to-top">
 			<a href="#" id="back-to-top"
@@ -146,5 +135,3 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<!-- Core theme JS-->
 		<script src="assets/js/scripts.js"></script>
-	</body>
-</html>
