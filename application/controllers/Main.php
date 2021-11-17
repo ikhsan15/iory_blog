@@ -11,7 +11,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('menu/header');
 		$this->load->view('menu/navbar');
-		$this->load->view('index.php');
+		$this->load->view('index');
 		$this->load->view('menu/footer');
 	}
 	// public function about(){
