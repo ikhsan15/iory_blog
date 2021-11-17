@@ -1,112 +1,79 @@
-<!-- Page Header - start -->
-<header
-	class="masthead"
-	style="background-image: url('assets/img/home-bg.jpg')"
->
-	<div class="container position-relative px-4 px-lg-5">
-		<div class="row gx-4 gx-lg-5 justify-content-center">
-			<div class="col-md-10 col-lg-8 col-xl-7">
-				<div class="site-heading">
-					<h1>IORY Blog</h1>
-					<span class="subheading"
-						>"Life would be tragic If it weren't funny."</span
-					>
-					<span>Stephen Hawking</span>
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+		<title>IORY - Iseng of stORY</title>
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css'>
+		<link rel="stylesheet" href="<?php echo base_url().'assets/css/style_post_link.css'; ?>">
+	</head>
+	<body>
+	<!-- partial:index.partial.html -->
+	<div class="uk-container uk-padding">
+		<div class="uk-timeline">
+			<div class="uk-timeline-item">
+				<div class="uk-timeline-icon">
+					<span class="uk-badge"><span uk-icon="check"></span></span>
+				</div>
+				<div class="uk-timeline-content">
+					<div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+						<div class="uk-card-header">
+							<div class="uk-grid-small uk-flex-middle" uk-grid>
+								<h3 class="uk-card-title"><time datetime="2020-07-08">July 8</time></h3>
+								<span class="uk-label uk-label-success uk-margin-auto-left">Feature</span>
+							</div>
+						</div>
+						<div class="uk-card-body">
+							<p class="uk-text-success">Fully responsive timeline you can add to your UIkit 3 project</p>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="uk-timeline-item">
+					<div class="uk-timeline-icon">
+						<span class="uk-badge"><span uk-icon="check"></span></span>
+					</div>
+					<div class="uk-timeline-content">
+						<div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+							<div class="uk-card-header">
+								<div class="uk-grid-small uk-flex-middle" uk-grid>
+									<h3 class="uk-card-title"><time datetime="2020-07-07">July 7</time></h3>
+									<span class="uk-label uk-label-warning uk-margin-auto-left">Test</span>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-timeline-item">
+					<div class="uk-timeline-icon">
+						<span class="uk-badge"><span uk-icon="check"></span></span>
+					</div>
+					<div class="uk-timeline-content">
+						<div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+							<div class="uk-card-header">
+								<div class="uk-grid-small uk-flex-middle" uk-grid>
+									<h3 class="uk-card-title"><time datetime="2020-07-06">July 6</time></h3>
+									<span class="uk-label uk-label-danger uk-margin-auto-left">Fix</span>
+								</div>
+							</div>
+							<div class="uk-card-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+						<a href="#">
+							<span class="uk-margin-small-right" uk-icon="triangle-down"></span>
+							Load more
+						</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</header>
-<!-- Page Header - end -->
-<!-- Main Content - start -->
-<div class="container px-4 px-lg-5">
-	<div class="row gx-4 gx-lg-5 justify-content-center">
-		<div class="col-md-10 col-lg-8 col-xl-7">
-			<!-- Post preview-->
-			<div class="post-preview">
-				<a href="<?php echo base_url(); ?>PostLinks/contentSatu">
-					<h2 class="post-title">
-						Man must explore, and this is exploration at its greatest
-					</h2>
-					<h3 class="post-subtitle">
-						Problems look mighty small from 150 miles up
-					</h3>
-				</a>
-				<p class="post-meta">
-					Posted by
-					<a href="#!">IORY</a>
-					on September 24, 2021
-				</p>
-			</div>
-			<!-- Divider-->
-			<hr class="my-4" />
-			<!-- Post preview-->
-			<div class="post-preview">
-				<a href="post.php"
-					><h2 class="post-title">
-						I believe every human has a finite number of heartbeats. I don't
-						intend to waste any of mine.
-					</h2></a
-				>
-				<p class="post-meta">
-					Posted by
-					<a href="#!">IORY</a>
-					on September 18, 2021
-				</p>
-			</div>
-			<!-- Divider-->
-			<hr class="my-4" />
-			<!-- Post preview-->
-			<div class="post-preview">
-				<a href="post.php">
-					<h2 class="post-title">Science has not yet mastered prophecy</h2>
-					<h3 class="post-subtitle">
-						We predict too much for the next year and yet far too little for the
-						next ten.
-					</h3>
-				</a>
-				<p class="post-meta">
-					Posted by
-					<a href="#!">IORY</a>
-					on August 24, 2021
-				</p>
-			</div>
-			<!-- Divider-->
-			<hr class="my-4" />
-			<!-- Post preview-->
-			<div class="post-preview">
-				<a href="post.php">
-					<h2 class="post-title">Failure is not an option</h2>
-					<h3 class="post-subtitle">
-						Many say exploration is part of our destiny, but it’s actually our
-						duty to future generations.
-					</h3>
-				</a>
-				<p class="post-meta">
-					Posted by
-					<a href="#!">IORY</a>
-					on July 8, 2021
-				</p>
-			</div>
-			<!-- Divider-->
-			<hr class="my-4" />
-			<!-- Pager-->
-			<div class="d-flex justify-content-end mb-4">
-				<a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Main Content - end -->
-
-<!-- back-to-top - start -->
-<div class="back-to-top">
-	<a href="#" id="back-to-top"
-		><i class="fa fa-chevron-up" aria-hidden="true" id="arrowTop"></i
-	></a>
-</div>
-<!-- back-to-top - end -->
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="assets/js/scripts.js"></script>
+	<!-- partial -->
+	<script src='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js'></script>
+	</body>
+</html>
