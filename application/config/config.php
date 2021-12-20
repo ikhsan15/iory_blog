@@ -34,11 +34,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
 
 $base_url = 'http://iory-say.herokuapp.com/';
-
-//printf( "SERVER[REQUEST_SCHEME]=%s\n", $_SERVER['REQUEST_SCHEME'] );
-if( $_SERVER['REQUEST_SCHEME'] == "https" )
-   $base_url = str_replace( "http://", "https://", $base_url );
-
+if( $_SERVER['REQUEST_SCHEME'] == "https" ){
+	$base_url = str_replace( "http://", "https://", $base_url );
+}
 
 /*
 |--------------------------------------------------------------------------
