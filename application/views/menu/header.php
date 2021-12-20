@@ -26,4 +26,4 @@
 	type="text/css"
 />
 <!-- Core theme CSS (includes Bootstrap)-->
-<link rel="stylesheet" type="text/css" href="<? echo base_url();?>/assets/css/styles.css">
+<link href="<?php echo base_url('assets/css/styles.css');?>" rel="stylesheet" />
