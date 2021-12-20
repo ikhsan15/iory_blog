@@ -6,13 +6,13 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>IORY - Iseng of stORY</title>
-<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/favicon.ico'); ?>" />
+<link rel="icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>" />
 <!-- Font Awesome icons (free version)-->
 <!-- <script
 		src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
 		crossorigin="anonymous"
 	></script> -->
-<script src="<?php echo base_url('assets/fontawesome/js/all.js');?>"></script>
+<script src="<?php echo base_url('/assets/fontawesome/js/all.js');?>"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Google fonts-->
 <link
@@ -26,4 +26,4 @@
 	type="text/css"
 />
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="<?php echo base_url('assets/css/styles.css');?>" rel="stylesheet" />
+<link href="<?php echo base_url('/assets/css/styles.css');?>" rel="stylesheet" />
