@@ -34,10 +34,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
 
 $base_url = 'http://iory-say.herokuapp.com/';
-if( $_SERVER['REQUEST_SCHEME'] == "https" ){
-	$base_url = str_replace( "http://", "https://", $base_url );
-}
+// if( $_SERVER['REQUEST_SCHEME'] == "https" ){
+// 	$base_url = str_replace( "http://", "https://", $base_url );
+// }
 
+if(!empty($_SERVER['HTTPS'])) {
+   $base_url = str_replace( "http://", "https://", $base_url );
+}
 /*
 |--------------------------------------------------------------------------
 | Index File
