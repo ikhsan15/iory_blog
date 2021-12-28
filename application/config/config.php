@@ -25,13 +25,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $config['base_url'] = 'http://localhost/iory_blog_ci3/';
 
-// if( isset($_SERVER['HTTPS'] ) ) {
-// 	$config['base_url']  =  "https://".$_SERVER['HTTP_HOST'];
-// }
-// else{
-// 	$config['base_url']  =  "http://".$_SERVER['HTTP_HOST'];
-// }
-// $config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
+if( isset($_SERVER['HTTPS'] ) ) {
+	// $config['base_url']  =  "https://".$_SERVER['HTTP_HOST'];
+	$config['base_url']  =  "//".$_SERVER['HTTP_HOST'];
+}
+else{
+	// $config['base_url']  =  "//".$_SERVER['HTTP_HOST'];
+	$config['base_url']  =  "http://".$_SERVER['HTTP_HOST'];
+}
+$config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])).'/';
 
 // if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
 // 	$location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -40,10 +42,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // 	exit;
 // }
 
-$base_url = '//iory-say.herokuapp.com/';
-if( $_SERVER['REQUEST_SCHEME'] == "https" ){
-	$base_url = str_replace( "http://", "https://", $base_url );
-}
+// $base_url = 'http://iory-say.herokuapp.com/';
+// if( $_SERVER['REQUEST_SCHEME'] == "https" ){
+// 	$base_url = str_replace( "http://", "https://", $base_url );
+// }
 
 // if(!empty($_SERVER['HTTPS'])) {
 //    $base_url = str_replace( "http://", "https://", $base_url );
