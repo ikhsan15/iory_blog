@@ -26,6 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $config['base_url'] = 'http://localhost/iory_blog_ci3/';
 
 if( isset($_SERVER['HTTPS'] ) ) {
+	// $config['base_url']  =  "https://".$_SERVER['HTTP_HOST'];
 	$config['base_url']  =  "https://".$_SERVER['HTTP_HOST'];
 }
 // else{
