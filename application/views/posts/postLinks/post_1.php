@@ -1,79 +1,134 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
 		<title>IORY - Iseng of stORY</title>
-		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css'>
-		<link rel="stylesheet" href="<?php echo base_url().'assets/css/style_post_link.css'; ?>">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css'> -->
+		<link
+			rel="stylesheet"
+			href="<?php echo base_url().'assets/css/style_post_link.css'; ?>"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 	</head>
 	<body>
-	<!-- partial:index.partial.html -->
-	<div class="uk-container uk-padding">
-		<div class="uk-timeline">
-			<div class="uk-timeline-item">
-				<div class="uk-timeline-icon">
-					<span class="uk-badge"><span uk-icon="check"></span></span>
+		<!-- partial:index.partial.html -->
+		<script src="https://use.typekit.net/bkt6ydm.js"></script>
+		<script>
+			try {
+				Typekit.load({ async: true });
+			} catch (e) {}
+		</script>
+		<div class="container-fluid">
+			<div class="row example-centered">
+				<div class="col-md-12 example-title">
+					<h2>Centered Timeline</h2>
+					<p>Medium devices (desktops, 992px and up).</p>
 				</div>
-				<div class="uk-timeline-content">
-					<div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
-						<div class="uk-card-header">
-							<div class="uk-grid-small uk-flex-middle" uk-grid>
-								<h3 class="uk-card-title"><time datetime="2020-07-08">July 8</time></h3>
-								<span class="uk-label uk-label-success uk-margin-auto-left">Feature</span>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<ul class="timeline timeline-centered">
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>March 12, 2016</span>
 							</div>
-						</div>
-						<div class="uk-card-body">
-							<p class="uk-text-success">Fully responsive timeline you can add to your UIkit 3 project</p>
-						</div>
-					</div>
-				</div>
-			</div>
-				<div class="uk-timeline-item">
-					<div class="uk-timeline-icon">
-						<span class="uk-badge"><span uk-icon="check"></span></span>
-					</div>
-					<div class="uk-timeline-content">
-						<div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
-							<div class="uk-card-header">
-								<div class="uk-grid-small uk-flex-middle" uk-grid>
-									<h3 class="uk-card-title"><time datetime="2020-07-07">July 7</time></h3>
-									<span class="uk-label uk-label-warning uk-margin-auto-left">Test</span>
-								</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title">Event Title</h3>
+								<p>
+									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
+									consectetuer eget, posuere ut, mauris. Donec orci lectus,
+									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
+									sapien ut libero venenatis faucibus. ullam dictum felis eu
+									pede mollis pretium. Pellentesque ut neque.
+								</p>
 							</div>
-							<div class="uk-card-body">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>March 23, 2016</span>
 							</div>
-						</div>
-					</div>
-				</div>
-				<div class="uk-timeline-item">
-					<div class="uk-timeline-icon">
-						<span class="uk-badge"><span uk-icon="check"></span></span>
-					</div>
-					<div class="uk-timeline-content">
-						<div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
-							<div class="uk-card-header">
-								<div class="uk-grid-small uk-flex-middle" uk-grid>
-									<h3 class="uk-card-title"><time datetime="2020-07-06">July 6</time></h3>
-									<span class="uk-label uk-label-danger uk-margin-auto-left">Fix</span>
-								</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title">Event Title</h3>
+								<p>
+									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
+									consectetuer eget, posuere ut, mauris. Donec orci lectus,
+									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
+									sapien ut libero venenatis faucibus. ullam dictum felis eu
+									pede mollis pretium. Pellentesque ut neque.
+								</p>
 							</div>
-							<div class="uk-card-body">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">April 2016</h2>
 							</div>
-						</div>
-						<a href="#">
-							<span class="uk-margin-small-right" uk-icon="triangle-down"></span>
-							Load more
-						</a>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>April 02, 2016</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title">Event Title</h3>
+								<p>
+									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
+									consectetuer eget, posuere ut, mauris. Donec orci lectus,
+									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
+									sapien ut libero venenatis faucibus. ullam dictum felis eu
+									pede mollis pretium. Pellentesque ut neque.
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>April 28, 2016</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title">Event Title</h3>
+								<p>
+									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
+									consectetuer eget, posuere ut, mauris. Donec orci lectus,
+									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
+									sapien ut libero venenatis faucibus. ullam dictum felis eu
+									pede mollis pretium. Pellentesque ut neque.
+								</p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- partial -->
-	<script src='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js'></script>
-	<script src='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js'></script>
+		<div id="pages">
+			<nav>
+				<span class="text">NEXT</span>
+				<div class="left">
+					<a href="" class="prev"></a>
+					<a href="">1</a>
+					<a href="">2</a>
+					<a href="">3</a>
+					<span class="line"></span>
+				</div>
+				<div class="right">
+					<a href="" class="next"></a>
+					<a href="">4</a>
+					<a href="">5</a>
+					<a href="">6</a>
+					<span class="line"></span>
+				</div>
+			</nav>
+		</div>
+		<!-- partial -->
 	</body>
 </html>

@@ -1,31 +1,432 @@
-.uk-timeline .uk-timeline-item .uk-card {
-max-height: 300px;
+body {
+	color: #768390;
+	background: #fff;
+	font-family: "Effra", Helvetica, sans-serif;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
-.uk-timeline .uk-timeline-item {
-  display: flex;
-  position: relative;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #3d4351;
+	margin-top: 0;
 }
 
-.uk-timeline .uk-timeline-item::before {
-  background: #dadee4;
-  content: "";
-  height: 100%;
-  left: 19px;
-  position: absolute;
-  top: 20px;
-  width: 2px;
-  z-index: -1;
+a {
+	color: #ff6b6b;
+}
+a:hover {
+	color: #ff9a9a;
+	text-decoration: none;
 }
 
-.uk-timeline .uk-timeline-item .uk-timeline-icon .uk-badge {
-  margin-top: 20px;
-  width: 40px;
-  height: 40px;
+.example-header {
+	background: #3d4351;
+	color: #fff;
+	font-weight: 300;
+	padding: 3em 1em;
+	text-align: center;
+}
+.example-header h1 {
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.example-header p {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 700;
 }
 
-.uk-timeline .uk-timeline-item .uk-timeline-content {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 0 0 0 1rem;
+.container-fluid .row {
+	padding: 0 0 4em 0;
+}
+.container-fluid .row:nth-child(even) {
+	background: #f1f4f5;
+}
+
+.example-title {
+	text-align: center;
+	margin-bottom: 60px;
+	padding: 3em 0;
+	border-bottom: 1px solid #e4eaec;
+}
+.example-title p {
+	margin: 0 auto;
+	font-size: 16px;
+	max-width: 400px;
+}
+
+/*==================================
+    TIMELINE
+==================================*/
+/*-- GENERAL STYLES
+------------------------------*/
+.timeline {
+	line-height: 1.4em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 {
+	line-height: inherit;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+	padding-left: 40px;
+	position: relative;
+}
+.timeline-item:last-child {
+	padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin: 0 0 0.5em 0;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 15px;
+}
+.timeline-marker:before {
+	background: #ff6b6b;
+	border: 3px solid transparent;
+	border-radius: 100%;
+	content: "";
+	display: block;
+	height: 15px;
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 15px;
+	transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+	content: "";
+	width: 3px;
+	background: #ccd5db;
+	display: block;
+	position: absolute;
+	top: 24px;
+	bottom: 0;
+	left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+	content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+	background: transparent;
+	border: 3px solid #ff6b6b;
+}
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+	padding-bottom: 40px;
+}
+.timeline-content p:last-child {
+	margin-bottom: 0;
+}
+
+/*----- TIMELINE PERIOD -----*/
+.period {
+	padding: 0;
+}
+.period .timeline-info {
+	display: none;
+}
+.period .timeline-marker:before {
+	background: transparent;
+	content: "";
+	width: 15px;
+	height: auto;
+	border: none;
+	border-radius: 0;
+	top: 0;
+	bottom: 30px;
+	position: absolute;
+	border-top: 3px solid #ccd5db;
+	border-bottom: 3px solid #ccd5db;
+}
+.period .timeline-marker:after {
+	content: "";
+	height: 32px;
+	top: auto;
+}
+.period .timeline-content {
+	padding: 40px 0 70px;
+}
+.period .timeline-title {
+	margin: 0;
+}
+
+/*----------------------------------------------
+    MOD: TIMELINE SPLIT
+----------------------------------------------*/
+@media (min-width: 768px) {
+	.timeline-split .timeline,
+	.timeline-centered .timeline {
+		display: table;
+	}
+	.timeline-split .timeline-item,
+	.timeline-centered .timeline-item {
+		display: table-row;
+		padding: 0;
+	}
+	.timeline-split .timeline-info,
+	.timeline-centered .timeline-info,
+	.timeline-split .timeline-marker,
+	.timeline-centered .timeline-marker,
+	.timeline-split .timeline-content,
+	.timeline-centered .timeline-content,
+	.timeline-split .period .timeline-info {
+		display: table-cell;
+		vertical-align: top;
+	}
+	.timeline-split .timeline-marker,
+	.timeline-centered .timeline-marker {
+		position: relative;
+	}
+	.timeline-split .timeline-content,
+	.timeline-centered .timeline-content {
+		padding-left: 30px;
+	}
+	.timeline-split .timeline-info,
+	.timeline-centered .timeline-info {
+		padding-right: 30px;
+	}
+	.timeline-split .period .timeline-title,
+	.timeline-centered .period .timeline-title {
+		position: relative;
+		left: -45px;
+	}
+}
+
+/*----------------------------------------------
+    MOD: TIMELINE CENTERED
+----------------------------------------------*/
+@media (min-width: 992px) {
+	.timeline-centered,
+	.timeline-centered .timeline-item,
+	.timeline-centered .timeline-info,
+	.timeline-centered .timeline-marker,
+	.timeline-centered .timeline-content {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	.timeline-centered .timeline-item {
+		padding-bottom: 40px;
+		overflow: hidden;
+	}
+	.timeline-centered .timeline-marker {
+		position: absolute;
+		left: 50%;
+		margin-left: -7.5px;
+	}
+	.timeline-centered .timeline-info,
+	.timeline-centered .timeline-content {
+		width: 50%;
+	}
+	.timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
+		float: left;
+		text-align: right;
+		padding-right: 30px;
+	}
+	.timeline-centered > .timeline-item:nth-child(odd) .timeline-content {
+		float: right;
+		text-align: left;
+		padding-left: 30px;
+	}
+	.timeline-centered > .timeline-item:nth-child(even) .timeline-info {
+		float: right;
+		text-align: left;
+		padding-left: 30px;
+	}
+	.timeline-centered > .timeline-item:nth-child(even) .timeline-content {
+		float: left;
+		text-align: right;
+		padding-right: 30px;
+	}
+	.timeline-centered > .timeline-item.period .timeline-content {
+		float: none;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.timeline-centered .timeline-item.period {
+		padding: 50px 0 90px;
+	}
+	.timeline-centered .period .timeline-marker:after {
+		height: 30px;
+		bottom: 0;
+		top: auto;
+	}
+	.timeline-centered .period .timeline-title {
+		left: auto;
+	}
+}
+
+/*----------------------------------------------
+    MOD: MARKER OUTLINE
+----------------------------------------------*/
+.marker-outline .timeline-marker:before {
+	background: transparent;
+	border-color: #ff6b6b;
+}
+.marker-outline .timeline-item:hover .timeline-marker:before {
+	background: #ff6b6b;
+}
+
+/*----------------------------------------------
+    PAGINATION
+----------------------------------------------*/
+#pages a {
+	text-decoration: none;
+	outline: none;
+	display: block;
+	padding: 20px 0;
+	width: 40px;
+	text-align: center;
+	color: white;
+	float: left;
+}
+#pages div {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	width: 40px;
+	overflow: hidden;
+	transition: 0.5s linear;
+}
+.left {
+	left: 0;
+}
+.right {
+	right: 0;
+}
+.line {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	bottom: 10px;
+	left: -35px;
+	background: white;
+	transition: 0.5s linear 0.2s;
+}
+.left a:nth-child(2):hover ~ .line,
+.right a:nth-child(2):hover ~ .line {
+	left: 5px;
+}
+.left a:nth-child(3):hover ~ .line,
+.right a:nth-child(3):hover ~ .line {
+	left: 45px;
+}
+.left a:nth-child(4):hover ~ .line,
+.right a:nth-child(4):hover ~ .line {
+	left: 85px;
+}
+nav {
+	margin: 0 30% 2%;
+	/* 	display: flex; */
+	/* 	justify-content: center; */
+	/* 	align-items: center; */
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
+	background: #fcfcfc;
+	color: #4d4644;
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+	width: 600px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	transition: 0.3s linear;
+}
+.text {
+	display: inline-block;
+	letter-spacing: 2px;
+	padding: 20px 10px;
+	cursor: pointer;
+}
+#pages nav:hover div {
+	background: #ff6b6b;
+	opacity: 1;
+}
+#pages div:hover .prev {
+	opacity: 0;
+	display: none;
+}
+#pages div:hover .next {
+	display: none;
+}
+#pages div:hover {
+	width: auto;
+}
+.prev:before {
+	content: "\f104";
+	font-family: FontAwesome;
+}
+.next:before {
+	content: "\f105";
+	font-family: FontAwesome;
+}
+
+/*----------------------------------------------
+    MOD: PAGINATION
+----------------------------------------------*/
+@media (max-width: 1440px) {
+	nav {
+		margin: 0 0 2% 28%;
+	}
+}
+@media (max-width: 1024px) {
+	nav {
+		margin: 0 0 2% 21%;
+	}
+}
+@media (max-width: 768px) {
+	nav {
+		margin: 0 0 2% 11.5%;
+	}
+}
+@media (max-width: 435px) {
+	nav {
+		margin: 0 0 2% 3%;
+		width: 400px;
+	}
+}
+@media (max-width: 375px) {
+	nav {
+		margin: 0 0 2% 10%;
+		width: 300px;
+	}
+}
+@media (max-width: 320px) {
+	nav {
+		margin: 0 0 2% 3%;
+		width: 300px;
+	}
 }
