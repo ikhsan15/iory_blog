@@ -5,18 +5,9 @@
 		<title>IORY - Iseng of stORY</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css'> -->
-		<link
-			rel="stylesheet"
-			href="<?php echo base_url().'assets/css/style_post_link.css'; ?>"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-		/>
+		<link rel="stylesheet" href="<?php echo base_url().'assets/css/style_post_link.css'; ?>"/>
+		<link	rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link	rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 	</head>
 	<body>
