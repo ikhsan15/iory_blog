@@ -6,7 +6,7 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>IORY - Iseng of stORY</title>
-<link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/favicon.ico'); ?>" />
+<link rel="icon" type="image/x-icon" href="<?php echo base_url().'assets/favicon.ico'; ?>" />
 <!-- Font Awesome icons (free version)-->
 <!-- <script
 		src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
