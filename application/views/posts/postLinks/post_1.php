@@ -4,10 +4,11 @@
 		<meta charset="UTF-8" />
 		<title>IORY - Iseng of stORY</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css'> -->
-		<link rel="stylesheet" href="<?php echo base_url().'assets/css/style_post_link.css'; ?>"/>
-		<link	rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<link	rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css"> -->
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()."assets/css/style_post_link.css"; ?>"/>
+		<link	rel="stylesheet" type="text/css"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link	rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		/>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 	</head>
 	<body>
@@ -18,6 +19,25 @@
 				Typekit.load({ async: true });
 			} catch (e) {}
 		</script>
+		<div class="container" id="backtohome">
+			<!-- <ul>
+				<li> -->
+					<a class="animated-arrow" href="<?php echo base_url(); ?>PostPortal">
+						<span class="the-arrow -left">
+							<span class="shaft"></span>
+						</span>
+						<span class="main">
+							<span class="text">
+								Back to List
+							</span>
+							<span class="the-arrow -right">
+								<span class="shaft"></span>
+							</span>
+						</span>
+					</a>
+				<!-- </li>
+			</ul> -->
+		</div>
 		<div class="container-fluid">
 			<div class="row example-centered">
 				<div class="col-md-12 example-title">
