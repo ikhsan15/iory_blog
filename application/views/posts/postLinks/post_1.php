@@ -125,14 +125,14 @@
 			<nav>
 				<span class="text">NEXT</span>
 				<div class="left">
-					<a href="" class="prev"></a>
+					<!-- <a href="" class="prev"></a> -->
 					<a href="">1</a>
 					<a href="">2</a>
 					<a href="">3</a>
 					<span class="line"></span>
 				</div>
 				<div class="right">
-					<a href="" class="next"></a>
+					<!-- <a href="" class="next"></a> -->
 					<a href="">4</a>
 					<a href="">5</a>
 					<a href="">6</a>

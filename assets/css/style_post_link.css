@@ -17,10 +17,10 @@ h6 {
 }
 
 a {
-	color: #ff6b6b;
+	color: #0085a1;
 }
 a:hover {
-	color: #ff9a9a;
+	color: #0085a1;
 	text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ a:hover {
 	width: 15px;
 }
 .timeline-marker:before {
-	background: #ff6b6b;
+	background: #0085a1;
 	border: 3px solid transparent;
 	border-radius: 100%;
 	content: "";
@@ -139,7 +139,7 @@ a:hover {
 
 .timeline-item:not(.period):hover .timeline-marker:before {
 	background: transparent;
-	border: 3px solid #ff6b6b;
+	border: 3px solid #0085a1;
 }
 
 /*----- TIMELINE CONTENT -----*/
@@ -294,10 +294,10 @@ a:hover {
 ----------------------------------------------*/
 .marker-outline .timeline-marker:before {
 	background: transparent;
-	border-color: #ff6b6b;
+	border-color: #0085a1;
 }
 .marker-outline .timeline-item:hover .timeline-marker:before {
-	background: #ff6b6b;
+	background: #0085a1;
 }
 
 /*----------------------------------------------
@@ -336,16 +336,16 @@ a:hover {
 	background: white;
 	transition: 0.5s linear 0.2s;
 }
+.left a:nth-child(1):hover ~ .line,
+.right a:nth-child(1):hover ~ .line {
+	left: 5px;
+}
 .left a:nth-child(2):hover ~ .line,
 .right a:nth-child(2):hover ~ .line {
-	left: 5px;
+	left: 45px;
 }
 .left a:nth-child(3):hover ~ .line,
 .right a:nth-child(3):hover ~ .line {
-	left: 45px;
-}
-.left a:nth-child(4):hover ~ .line,
-.right a:nth-child(4):hover ~ .line {
 	left: 85px;
 }
 nav {
@@ -372,27 +372,30 @@ nav {
 	cursor: pointer;
 }
 #pages nav:hover div {
-	background: #ff6b6b;
+	background: #0085a1;
 	opacity: 1;
 }
-#pages div:hover .prev {
+/* #pages div:hover .prev {
 	opacity: 0;
 	display: none;
 }
 #pages div:hover .next {
 	display: none;
-}
-#pages div:hover {
+} */
+/* #pages div:hover {
+	width: auto;
+} */
+#pages div {
 	width: auto;
 }
-.prev:before {
+/* .prev:before {
 	content: "\f104";
 	font-family: FontAwesome;
 }
 .next:before {
 	content: "\f105";
 	font-family: FontAwesome;
-}
+} */
 
 /*----------------------------------------------
     MOD: PAGINATION
