@@ -23,6 +23,13 @@ a:hover {
 	color: #0085a1;
 	text-decoration: none;
 }
+.timeline-title a {
+	color: #768390;
+}
+.timeline-title a:hover {
+	text-decoration: none;
+	color: #0085a1;
+}
 
 .example-header {
 	background: #3d4351;
@@ -457,6 +464,18 @@ body {
 	font-size: 16px;
 	line-height: 26px;
 }
+
+#no_pages span {
+	font-family: "Helvetica Neue LT W01_41488878";
+	font-size: 14px;
+	line-height: 26px;
+	position: relative;
+	float: right;
+	color: #0085a1;
+	margin-top: -6%;
+}
+
+/* .title .name { float:left } */
 
 /* .container {
 	display: flex;

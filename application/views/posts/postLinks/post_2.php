@@ -41,7 +41,7 @@
 		<div class="container" id="no_pages">
 			<span class="main">
 				<span class="text">
-					Page 1
+					Page 2
 				</span>
 			</span>
 		</div>
@@ -140,8 +140,8 @@
 				<span class="text"> NEXT </span>
 				<div class="left">
 					<!-- <a href="" class="prev"></a> -->
-					<a href="">1</a>
-					<a href="<?php echo base_url(); ?>PostLinks/post_2">2</a>
+					<a href="<?php echo base_url(); ?>PostLinks">1</a>
+					<a href="">2</a>
 					<a href="">3</a>
 					<span class="line"></span>
 				</div>

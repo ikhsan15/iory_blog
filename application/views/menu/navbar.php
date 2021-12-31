@@ -33,7 +33,7 @@
 				<li class="nav-item">
 					<a
 						class="nav-link px-lg-3 py-3 py-lg-4"
-						href="<?php echo base_url(); ?>Main/postPortal"
+						href="<?php echo base_url(); ?>PostPortal"
 						>Anything Post</a
 					>
 				</li>

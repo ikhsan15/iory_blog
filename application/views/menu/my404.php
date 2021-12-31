@@ -96,7 +96,7 @@
 				<div id="navigation">
 					<a class="navigation" href="<?php echo base_url(); ?>">Home</a>
 					<a class="navigation" href="<?php echo base_url(); ?>Main/about">About Us</a>
-					<a class="navigation" href="<?php echo base_url(); ?>Main/postPortal">Anything Post</a>
+					<a class="navigation" href="<?php echo base_url(); ?>PostPortal">Anything Post</a>
 					<a class="navigation" href="<?php echo base_url(); ?>Main/contact">Contact</a>
 				</div>
 			</div>

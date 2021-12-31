@@ -24,7 +24,7 @@
 		<div class="col-md-10 col-lg-8 col-xl-7">
 			<!-- Post preview-->
 			<div class="post-preview">
-				<a href="post.php">
+				<a href="<?php echo base_url(); ?>Main/kata_1">
 					<h2 class="post-title">
 						Man must explore, and this is exploration at its greatest
 					</h2>
@@ -92,7 +92,7 @@
 			<hr class="my-4" />
 			<!-- Pager-->
 			<div class="d-flex justify-content-end mb-4">
-				<a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
+				<a class="btn btn-primary text-uppercase" href="<?php echo base_url(); ?>PostPortal">Older Posts →</a>
 			</div>
 		</div>
 	</div>

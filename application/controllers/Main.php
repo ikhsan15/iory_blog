@@ -20,9 +20,6 @@ class Main extends CI_Controller {
     $this->load->view('menu/about');
     $this->load->view('menu/footer');
 	}
-	public function postPortal(){
-		$this->load->view('menu/post_portal');
-	}
 	public function contact(){
 		$this->load->view('menu/header');
     $this->load->view('menu/navbar');
