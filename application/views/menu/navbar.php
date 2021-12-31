@@ -26,21 +26,21 @@
 				<li class="nav-item">
 					<a
 						class="nav-link px-lg-3 py-3 py-lg-4"
-						href="<?php echo base_url(); ?>About"
+						href="<?php echo base_url(); ?>Main/about"
 						>About</a
 					>
 				</li>
 				<li class="nav-item">
 					<a
 						class="nav-link px-lg-3 py-3 py-lg-4"
-						href="<?php echo base_url(); ?>PostPortal"
+						href="<?php echo base_url(); ?>Main/postPortal"
 						>Anything Post</a
 					>
 				</li>
 				<li class="nav-item">
 					<a
 						class="nav-link px-lg-3 py-3 py-lg-4"
-						href="<?php echo base_url(); ?>Contact"
+						href="<?php echo base_url(); ?>Main/contact"
 						>Contact</a
 					>
 				</li>

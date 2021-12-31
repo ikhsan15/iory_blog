@@ -37,11 +37,9 @@
 					jelas maknanya, lmao.
 				</p>
 				<p>
-					Gw suka menulis, membuat coretan di atas kertas putih dan
-					menggabungkan sesuatu menjadi objek baru, tapi gw bukan seorang expert
-					dalam hal itu. Gw suka sesuatu yg gw gk bisa, karena dengan itu gw
+					Gw suka sesuatu yg gw gk bisa, karena dengan itu gw
 					semangat untuk bisa, yaa terkadang berat sih, tapi gw senang aja
-					ngelakuinnya. Hihihi.
+					ngelakuinnya.
 				</p>
 			</div>
 		</div>

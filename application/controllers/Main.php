@@ -14,13 +14,19 @@ class Main extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('menu/footer');
 	}
-	// public function about(){
-	// 	$this->load->view('menu/about');
-	// }
-	// public function anythingPost(){
-	// 	$this->load->view('posts/post_portal');
-	// }
-	// public function contact(){
-	// 	$this->load->view('menu/contact');
-	// }
+	public function about(){
+		$this->load->view('menu/header');
+    $this->load->view('menu/navbar');
+    $this->load->view('menu/about');
+    $this->load->view('menu/footer');
+	}
+	public function postPortal(){
+		$this->load->view('menu/post_portal');
+	}
+	public function contact(){
+		$this->load->view('menu/header');
+    $this->load->view('menu/navbar');
+    $this->load->view('menu/contact');
+    $this->load->view('menu/footer');
+	}
 }
