@@ -57,38 +57,18 @@
 							<div class="timeline-info"></div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<h2 class="timeline-title">May 2016</h2>
+								<h2 class="timeline-title">2021</h2>
 							</div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>March 12, 2016</span>
+								<span>October 17, 2021</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<h3 class="timeline-title"><a href=""> Test 1 </a></h3>
+								<h3 class="timeline-title"> Belajar Menghargai </h3>
 								<p>
-									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-									consectetuer eget, posuere ut, mauris. Donec orci lectus,
-									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
-									sapien ut libero venenatis faucibus. ullam dictum felis eu
-									pede mollis pretium. Pellentesque ut neque.
-								</p>
-							</div>
-						</li>
-						<li class="timeline-item">
-							<div class="timeline-info">
-								<span>March 23, 2016</span>
-							</div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-								<h3 class="timeline-title">Event Title</h3>
-								<p>
-									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-									consectetuer eget, posuere ut, mauris. Donec orci lectus,
-									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
-									sapien ut libero venenatis faucibus. ullam dictum felis eu
-									pede mollis pretium. Pellentesque ut neque.
+									Hargai setiap hal kecil yang bisa membuatmu tertawa
 								</p>
 							</div>
 						</li>
@@ -96,38 +76,105 @@
 							<div class="timeline-info"></div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<h2 class="timeline-title">April 2016</h2>
+								<h2 class="timeline-title">2020</h2>
 							</div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>April 02, 2016</span>
+								<span>August 03, 2020</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<h3 class="timeline-title">Event Title</h3>
+								<h3 class="timeline-title"><a href=""> Hal Yang Biasa </a></h3>
 								<p>
-									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-									consectetuer eget, posuere ut, mauris. Donec orci lectus,
-									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
-									sapien ut libero venenatis faucibus. ullam dictum felis eu
-									pede mollis pretium. Pellentesque ut neque.
+									Jangan terlalu menyalahkan diri <br>
+									dan bersikap terlalu keras pada diri sendiri <br>
+									Kegagalan adalah hal biasanya <br>
+									dan semua orang pernah mengalaminya
 								</p>
 							</div>
 						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">2018</h2>
+							</div>
+						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>April 28, 2016</span>
+								<span>May 03, 2018</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<h3 class="timeline-title">Event Title</h3>
+								<h3 class="timeline-title"> Mencoba </h3>
 								<p>
-									Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a,
-									consectetuer eget, posuere ut, mauris. Donec orci lectus,
-									aliquam ut, faucibus non, euismod id, nulla. Donec vitae
-									sapien ut libero venenatis faucibus. ullam dictum felis eu
-									pede mollis pretium. Pellentesque ut neque.
+									Disaat dia memperbaiki diri untukmu <br>
+									Namun engkau semakin merusak dirimu untuk mendekatinya
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">2017</h2>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>October 05, 2017</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title"> Jangan Ragu </h3>
+								<p>
+									Jangan ragu untuk bertindak <br>
+									Semua yang kamu lakukan pasti ada hasilnya <br>
+									Teruslah berusaha <br>
+									Karena dibalik itu semua <br>
+									Kamu akan menemukan apa yang kamu impikan
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">2016</h2>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>October 05, 2017</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title"> Today </h3>
+								<p>
+									Hari ini harus lebih baik dari hari sebelumnya <br>
+									Namun jika aku tidak bisa lebih baik <br>
+									Semoga kau tau aku masih berusaha <br>
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">2015</h2>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>September 20, 2015</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title"> Mencoba </h3>
+								<p>
+									I tried to do my best <br>
+									But you know i'm not perfect
 								</p>
 							</div>
 						</li>
@@ -142,14 +189,14 @@
 					<!-- <a href="" class="prev"></a> -->
 					<a href="">1</a>
 					<a href="<?php echo base_url(); ?>PostLinks/post_2">2</a>
-					<a href="">3</a>
+					<a href="<?php echo base_url(); ?>PostLinks/post_3">3</a>
 					<span class="line"></span>
 				</div>
 				<div class="right">
 					<!-- <a href="" class="next"></a> -->
-					<a href="">4</a>
-					<a href="">5</a>
-					<a href="">6</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
 					<span class="line"></span>
 				</div>
 			</nav>

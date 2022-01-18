@@ -13,5 +13,8 @@ class PostLinks extends CI_Controller {
 	public function post_2(){
 		$this->load->view('posts/postLinks/post_2');
 	}
+	public function post_3(){
+		$this->load->view('posts/postLinks/post_3');
+	}
 	
 }
