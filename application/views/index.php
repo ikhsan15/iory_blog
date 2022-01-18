@@ -24,7 +24,7 @@
 		<div class="col-md-10 col-lg-8 col-xl-7">
 			<!-- Post preview-->
 			<div class="post-preview">
-				<a href="<?php echo base_url(); ?>Main/kata_1">
+				<a href="<?php echo base_url(); ?>PostLinks/post_2">
 					<h2 class="post-title">
 						Suaraku
 					</h2>
@@ -42,25 +42,7 @@
 			<hr class="my-4" />
 			<!-- Post preview-->
 			<div class="post-preview">
-				<a href="post.php">
-					<h2 class="post-title">
-						Bayang
-					</h2>
-					<h3 class="post-subtitle">
-						Terlalu banyak yang hilang
-					</h3>
-					</a>
-				<p class="post-meta">
-					Posted by
-					<a href="#!">IORY</a>
-					on October 18, 2021
-				</p>
-			</div>
-			<!-- Divider-->
-			<hr class="my-4" />
-			<!-- Post preview-->
-			<div class="post-preview">
-				<a href="post.php">
+				<a href="<?php echo base_url(); ?>PostLinks">
 					<h2 class="post-title">Belajar Menghargai</h2>
 					<h3 class="post-subtitle">
 						Hargai setiap hal kecil yang bisa membuatmu tertawa
@@ -76,7 +58,7 @@
 			<hr class="my-4" />
 			<!-- Post preview-->
 			<div class="post-preview">
-				<a href="post.php">
+				<a href="<?php echo base_url(); ?>PostLinks/post_3">
 					<h2 class="post-title">Bukan Hari Ini</h2>
 					<h3 class="post-subtitle">
 						Pengen a dapatnya b
