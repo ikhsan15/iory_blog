@@ -57,6 +57,38 @@
 							<div class="timeline-info"></div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
+								<h2 class="timeline-title">2022</h2>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>January 20, 2022</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title"><a href=""> Seminggu </a></h3>
+								<p>
+									Seminggu tlah berlalu <br>
+									Tak terasa waktu bagiku <br>
+									Masihku rasa ini bagai hayalku <br>
+									Tapi kuharap takkan lagi jadi sembilu <br> <br>
+
+									Aku mulai bertanya <br>
+									Benarkah tindakanku? <br>
+									Apakah ini akan mengganggu waktunya? <br>
+									Apakah aku bisa melakukan yang terbaik untuknya? <br> <br>
+
+									Aku hanya bisa mencoba <br>
+									Berusaha <br>
+									Berdo'a <br>
+									Semoga ini kan menjadi selamanya <br>
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
 								<h2 class="timeline-title">2021</h2>
 							</div>
 						</li>
@@ -80,7 +112,7 @@
 									Kata yang membuatmu seolah tak mengenalku <br>
 									Bagai orang yang tak pernah bertemu <br> <br>
 
-									Sku berusaha <br>
+									Aku berusaha <br>
 									Mencoba melupakan semua <br>
 									Namun suara itu semakin banyak dipikiranku <br>
 									Hingga aku tak tau <br>

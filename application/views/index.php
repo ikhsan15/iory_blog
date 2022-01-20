@@ -26,16 +26,16 @@
 			<div class="post-preview">
 				<a href="<?php echo base_url(); ?>PostLinks/post_2">
 					<h2 class="post-title">
-						Suaraku
+						Seminggu
 					</h2>
 					<h3 class="post-subtitle">
-						Terlalu banyak kata yang berlarian dalam pikiranku
+						Seminggu tlah berlalu
 					</h3>
 				</a>
 				<p class="post-meta">
 					Posted by
 					<a href="#!">IORY</a>
-					on October 31, 2021
+					on January 20, 2022
 				</p>
 			</div>
 			<!-- Divider-->
