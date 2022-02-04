@@ -34,7 +34,7 @@
         <a href="<?php echo base_url(); ?>PostLinks/post_2">
           <div class="child">
             <h2>Puisi</h2>
-            <p>7 articles</p>
+            <p>8 articles</p>
           </div>
           <div class="child"></div>
           <div class="child"></div>
