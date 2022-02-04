@@ -62,6 +62,28 @@
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
+								<span>February 04, 2022</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h3 class="timeline-title"><a href=""> Takut </a></h3>
+								<p>
+									Jangan pergi <br>
+									Jangan tinggalkan aku sendiri <br>
+									Aku takut kehilangan orang lagi <br>
+									Aku terlalu lelah kalau harus memulai dari awal lagi <br>
+									Aku terlalu sakit kalau kepercayaanku harus di khianati lagi <br>
+									Aku ingin berharap, namun aku tau batasanku <br>
+									Aku ingin berusaha, namun tak selalu berbuah manis padaku <br> <br>
+
+									Bukan aku bermaksud mengekangmu <br>
+									Namun aku takut ada yg lebih baik dariku menghampirimu <br>
+									Aku takut, kehilanganmu
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
 								<span>January 20, 2022</span>
 							</div>
 							<div class="timeline-marker"></div>
