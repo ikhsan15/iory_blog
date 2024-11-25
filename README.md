@@ -1,1 +1,3 @@
-# iory is Iseng of stORY
+# Inspired by Ikhsan's Story
+
+<s># iory is Iseng of stORY</s>
