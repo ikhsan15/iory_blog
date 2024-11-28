@@ -3,7 +3,6 @@
 <script src="<?php echo base_url('/assets/js/popper.min.js'); ?>"></script>
 <script src="<?php echo base_url('/assets/js/bootstrap.min.js'); ?>"></script>
 <script src="<?php echo base_url('/assets/js/classie.js'); ?>"></script>
-<script src="<?php echo base_url('/assets/js/color-switcher.js'); ?>"></script>
 <script src="<?php echo base_url('/assets/js/jquery.mixitup.js'); ?>"></script>
 <script src="<?php echo base_url('/assets/js/nivo-lightbox.js'); ?>"></script>
 <script src="<?php echo base_url('/assets/js/owl.carousel.js'); ?>"></script>    

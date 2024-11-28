@@ -19,17 +19,17 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img src="<?php echo base_url('/assets/img/slider/bg-1.jpg'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/slider/bg-7.jpg'); ?>" alt="">
               <div class="carousel-caption text-left">
                 <h3 class="wow fadeInRight" data-wow-delay="0.2s">Handcrafted</h1>  
-                <h2 class="wow fadeInRight" data-wow-delay="0.4s">Bootstrap 4 Template</h2>
-                <h4 class="wow fadeInRight" data-wow-delay="0.6s">Comes with All Essential Sections & Elements</h4>
-                <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">Download</a>
-                <a href="#" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Get Started!</a>
+                <h2 class="wow fadeInRight" data-wow-delay="0.4s">IORY</h2>
+                <h4 class="wow fadeInRight" data-wow-delay="0.6s">Inspired by Ikhsan's Story</h4>
+                <!-- <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">Download</a> -->
+                <!-- <a href="#" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Get Started!</a> -->
               </div>
             </div>
             <div class="carousel-item">
-              <img src="<?php echo base_url('/assets/img/slider/bg-3.jpg'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/slider/bg-6.jpg'); ?>" alt="">
               <div class="carousel-caption text-center">
                 <h3 class="wow fadeInDown" data-wow-delay="0.3s">Bundled With Tons of</h3>
                 <h2 class="wow bounceIn" data-wow-delay="0.6s">Cutting-edge Features</h2> 
@@ -38,7 +38,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="<?php echo base_url('/assets/img/slider/bg-2.jpg'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/slider/bg-8.jpg'); ?>" alt="">
               <div class="carousel-caption text-center">
                 <h3 class="wow fadeInDown" data-wow-delay="0.3s">Ready For</h3>
                 <h2 class="wow fadeInRight" data-wow-delay="0.6s">Multi-purpose Websites</h2> 
@@ -97,7 +97,7 @@
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
+          <!-- <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.8s">
               <div class="icon color-4">
                 <i class="lni-layers"></i>
@@ -123,11 +123,89 @@
               <h4>Digital Marketing</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!-- Services Section End -->
+
+    
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Blogs</h2>
+          <span>Blogs</span>
+          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="<?php echo base_url('/assets/img/blog/img1.jpg'); ?>" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
+                <h3><a href="single-post.html">10 Tips to Design a High-converting Landing Page</a></h3>
+                <div class="meta-tags">
+                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
+                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
+                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="<?php echo base_url('/assets/img/blog/img2.jpg'); ?>" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
+                <h3><a href="single-post.html">How to Design a Website For Your App</a></h3>
+                <div class="meta-tags">
+                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
+                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
+                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="<?php echo base_url('/assets/img/blog/img3.jpg'); ?>" alt="">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
+                <h3><a href="single-post.html">7 Secretes to Optimize Loading Speed of Your Site</a></h3>
+                <div class="meta-tags">
+                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
+                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
+                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog Section End -->
 
     <!-- Call to Action Start -->
     <section class="call-action section">
@@ -295,12 +373,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix development print">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-1.jpg'); ?>"> alt="" />  
+                <img src="<?php echo base_url('/assets/img/portfolio/img-1.jpg'); ?>" alt="" />  
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-1.jpg'); ?>">><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-1.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -312,12 +390,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix design print">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-2.jpg'); ?>"> alt="" /> 
+                <img src="<?php echo base_url('/assets/img/portfolio/img-2.jpg'); ?>" alt="" /> 
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-2.jpg'); ?>">><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-2.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -329,12 +407,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix development">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-3.jpg'); ?>"> alt="" />  
+                <img src="<?php echo base_url('/assets/img/portfolio/img-3.jpg'); ?>" alt="" />  
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-3.jpg'); ?>">><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-3.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -346,12 +424,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix development design">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-4.jpg'); ?>"> alt="" /> 
+                <img src="<?php echo base_url('/assets/img/portfolio/img-4.jpg'); ?>" alt="" /> 
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-4.jpg'); ?>">><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-4.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -363,12 +441,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix development">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-5.jpg'); ?>"> alt="" />  
+                <img src="<?php echo base_url('/assets/img/portfolio/img-5.jpg'); ?>" alt="" />  
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-5.jpg'); ?>">><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-5.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -380,12 +458,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix print design">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="<?php echo base_url('/assets/img/portfolio/img-6.jpg'); ?>"> alt="" />  
+                <img src="<?php echo base_url('/assets/img/portfolio/img-6.jpg'); ?>" alt="" />  
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-6.jpg'); ?>">><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="<?php echo base_url('/assets/img/portfolio/img-6.jpg'); ?>"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -401,7 +479,7 @@
     <!-- Portfolio Section Ends --> 
 
     <!-- Start Pricing Table Section -->
-    <div id="pricing" class="section pricing-section">
+    <!-- <div id="pricing" class="section pricing-section">
       <div class="container">
         <div class="section-header">          
           <h2 class="section-title">Pricing Plans</h2>
@@ -469,7 +547,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- End Pricing Table Section -->
 
     <!-- Counter Section Start -->
@@ -526,7 +604,7 @@
     <!-- Counter Section End -->
 
     <!-- Testimonial Section Start -->
-    <section class="testimonial section">
+    <!-- <section class="testimonial section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -535,7 +613,7 @@
                 <div class="testimonial-item">
                   <div class="author">
                     <div class="img-thumb">
-                    <img src="<?php echo base_url('/assets/img/testimonial/img1.jpg'); ?>"> alt="">
+                    <img src="<?php echo base_url('/assets/img/testimonial/img1.jpg'); ?>" alt="">
                     </div>
                     <div class="author-info">
                       <h2><a href="#">Johnathan Doe</a></h2>
@@ -556,7 +634,7 @@
                 <div class="testimonial-item">
                   <div class="author">
                     <div class="img-thumb">
-                    <img src="<?php echo base_url('/assets/img/testimonial/img2.jpg'); ?>"> alt="">
+                    <img src="<?php echo base_url('/assets/img/testimonial/img2.jpg'); ?>" alt="">
                     </div>
                     <div class="author-info">
                       <h2><a href="#">Oidila Matik</a></h2>
@@ -577,7 +655,7 @@
                 <div class="testimonial-item">
                   <div class="author">
                     <div class="img-thumb">
-                    <img src="<?php echo base_url('/assets/img/testimonial/img3.jpg'); ?>"> alt="">
+                    <img src="<?php echo base_url('/assets/img/testimonial/img3.jpg'); ?>" alt="">
                     </div>
                     <div class="author-info">
                       <h2><a href="#">- Alex Dattilo</a></h2>
@@ -598,7 +676,7 @@
                 <div class="testimonial-item">
                   <div class="author">
                     <div class="img-thumb">
-                    <img src="<?php echo base_url('/assets/img/testimonial/img2.jpg'); ?>"> alt="">
+                    <img src="<?php echo base_url('/assets/img/testimonial/img2.jpg'); ?>" alt="">
                     </div>
                     <div class="author-info">
                       <h2><a href="#">Oidila Matik</a></h2>
@@ -619,7 +697,7 @@
                 <div class="testimonial-item">
                   <div class="author">
                     <div class="img-thumb">
-                    <img src="<?php echo base_url('/assets/img/testimonial/img1.jpg'); ?>"> alt="">
+                    <img src="<?php echo base_url('/assets/img/testimonial/img1.jpg'); ?>" alt="">
                     </div>
                     <div class="author-info">
                       <h2><a href="#">- Alex Dattilo</a></h2>
@@ -640,7 +718,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Testimonial Section End --> 
 
     <!-- Call To Action Section Start -->
@@ -671,7 +749,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team1.png'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/team/team1.png'); ?>" alt="">
               <div class="team-details">
                 <div class="team-inner">
                   <h4 class="team-title">Jhon Doe</h4>
@@ -686,9 +764,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
+          <!-- <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team2.png'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/team/team2.png'); ?>" alt="">
               <div class="team-details">
                 <div class="team-inner">
                   <h4 class="team-title">Luke Chesser</h4>
@@ -705,7 +783,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team3.png'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/team/team3.png'); ?>" alt="">
               <div class="team-details">
                 <div class="team-inner">                  
                   <h4 class="team-title">David Givens</h4>
@@ -722,7 +800,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team4.png'); ?>"> alt="">
+              <img src="<?php echo base_url('/assets/img/team/team4.png'); ?>" alt="">
               <div class="team-details">
                 <div class="team-inner">
                   <h4 class="team-title">Annie Spratt</h4>
@@ -736,7 +814,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -814,82 +892,6 @@
     </div>
     <!-- Subcribe Section End -->
 
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-      <!-- Container Starts -->
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Blogs</h2>
-          <span>Blogs</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="<?php echo base_url('/assets/img/blog/img1.jpg'); ?>"> alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
-                <h3><a href="single-post.html">10 Tips to Design a High-converting Landing Page</a></h3>
-                <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="<?php echo base_url('/assets/img/blog/img2.jpg'); ?>"> alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
-                <h3><a href="single-post.html">How to Design a Website For Your App</a></h3>
-                <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="<?php echo base_url('/assets/img/blog/img3.jpg'); ?>"> alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
-                <h3><a href="single-post.html">7 Secretes to Optimize Loading Speed of Your Site</a></h3>
-                <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- blog Section End -->
 
     <!-- Clients Section -->
     <div id="clients" class="section">
@@ -898,22 +900,22 @@
         <!-- Row and Scroller Wrapper Starts -->
         <div class="row" id="clients-scroller">
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img1.png'); ?>"> alt="">
+            <img src="<?php echo base_url('/assets/img/clients/img1.png'); ?>" alt="">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img2.png'); ?>"> alt="">
+            <img src="<?php echo base_url('/assets/img/clients/img2.png'); ?>" alt="">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img3.png'); ?>"> alt="">
+            <img src="<?php echo base_url('/assets/img/clients/img3.png'); ?>" alt="">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img4.png'); ?>"> alt="">
+            <img src="<?php echo base_url('/assets/img/clients/img4.png'); ?>" alt="">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img5.png'); ?>"> alt="">
+            <img src="<?php echo base_url('/assets/img/clients/img5.png'); ?>" alt="">
           </div>
           <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img6.png'); ?>"> alt="">
+            <img src="<?php echo base_url('/assets/img/clients/img6.png'); ?>" alt="">
           </div>
         </div>
       </div>
@@ -990,7 +992,7 @@
     <!-- Contact Section End -->
     
     <!-- Map Section Start -->
-    <section id="google-map-area">
+    <!-- <section id="google-map-area">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 padding-0">
@@ -998,7 +1000,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Map Section End -->
 
     <!-- Footer Section Start -->
@@ -1010,12 +1012,12 @@
       <i class="lni-arrow-up"></i>
     </a>
 
-    <div id="loader">
+    <!-- <div id="loader">
       <div class="spinner">
         <div class="double-bounce1"></div>
         <div class="double-bounce2"></div>
       </div>
-    </div>    
+    </div>     -->
 
     <?php $this->load->view("admin/_partials/js.php") ?>
     

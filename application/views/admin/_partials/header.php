@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/nivo-lightbox.css'); ?>">
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/magnific-popup.css'); ?>">
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/animate.css'); ?>">
-<link rel="stylesheet" href="<?php echo base_url('/assets/css/color-switcher.css'); ?>">
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/menu_sideslide.css'); ?>">
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/main.css'); ?>">    
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/responsive.css'); ?>">
