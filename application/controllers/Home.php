@@ -23,24 +23,28 @@ class Home extends CI_Controller{
     // }
   }
 
-  function dashboard(){
-		// $hSQL				= str_replace(' ', '+', $this->input->get('hSQL'));
-		$rNum				= $this->input->get('rNum');
-		$rNum2			= $this->input->get('rNum2');
-    
+  function dashboard(){    
 		$data['judul']				= $judul;
 		$data['current_url']	= current_url();
 		$data['class']				= $this->router->fetch_class();
 		$data['method']				= $this->router->fetch_method();
-		// $data['hSQL']			  	= $hSQL;
-		$data['rNum']			  	= $rNum;
-		$data['rNum2']				= $rNum2;
-
-		// COUNT * FROM public.*table
-		// $data['tot_cpu']			= $this->db->count_all('public.cpu');
 		
 		$this->load->view('v_home', $data);
   }
+
+	function article() {
+    $data['judul']				= $judul;
+    $data['current_url']	= current_url();
+    $data['class']				= $this->router->fetch_class();
+    $data['method']				= $this->router->fetch_method();
+    $data['rNum']					= $rNum;
+
+		$data['rec_poetry']			= $this->db->query("SELECT * FROM public.poetry ORDER BY poe_id ASC");
+		$data['rec_story']			= $this->db->query("SELECT * FROM public.story ORDER BY st_id ASC");
+		$data['rec_wiseword']			= $this->db->query("SELECT * FROM public.wiseword ORDER BY ww_id ASC");
+
+    $this->load->view('article/v_article', $data);
+	}
 
   function cpu($mode = '', $cpu_id = 0) {
     $rNum = $this->input->get('rNum');

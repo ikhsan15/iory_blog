@@ -4,18 +4,15 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-          <h3>Essence</h3>
+          <h3>IORY</h3>
           <div class="textwidget">
-            <p>If you think you have the passion, 
-            attitude and capability to join us 
-            the next big software company
-            s so that we can get the convers.</p>
+            <p>Inspired by Ikhsan's Story.</p>
           </div>
           <ul class="footer-social">
             <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
             <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
             <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
-            <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+            <!-- <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li> -->
           </ul> 
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
@@ -35,13 +32,13 @@
             <h3 class="block-title">Contact Us</h3>
             <ul class="contact-footer">
               <li>
-                <strong>Address :</strong> <span>1900 Pico Blvd, New York br Centernial, colorado</span>
+                <strong>Address :</strong> <span>Riau, Indonesia</span>
               </li>
               <li>
-                <strong>Phone :</strong> <span>+48 123 456 789</span>
+                <strong>Phone :</strong> <span>+62 xxx yyy zzz</span>
               </li>
               <li>
-                <strong>E-mail :</strong> <span><a href="#">info@example.com</a></span>
+                <strong>E-mail :</strong> <span><a href="#">ikhsan15nur@gmail.com</a></span>
               </li>
             </ul> 
           </div>
@@ -65,7 +62,7 @@
   <!-- Footer area End -->
   
   <!-- Copyright Start  -->
-  <div id="copyright">
+  <!-- <div id="copyright">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -94,7 +91,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Copyright End -->
 
 </footer>

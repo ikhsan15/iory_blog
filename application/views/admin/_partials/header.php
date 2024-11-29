@@ -17,3 +17,7 @@
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/menu_sideslide.css'); ?>">
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/main.css'); ?>">    
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/responsive.css'); ?>">
+
+
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.4/tailwind.min.css" />

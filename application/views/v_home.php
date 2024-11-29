@@ -77,6 +77,7 @@
               </div>
               <h4>Content Writing</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <a href="<?php echo base_url().$class;?>/article" class="small-box-footer">Learn More</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
@@ -319,7 +320,89 @@
         </div>
       </div>
     </section>
-    <!-- Features Section End -->    
+    <!-- Features Section End --> 
+
+    <!-- Team section Start -->
+    <section id="team" class="section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Our Team</h2>
+          <span>Team</span>
+          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
+        </div>
+        <div class="row">
+          <div class="ourteam col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="<?php echo base_url('/assets/img/team/team1.png'); ?>" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Ikhsan Nur</h4>
+                  <p>Chief Technical Officer</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <!-- <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li> -->
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="<?php echo base_url('/assets/img/team/team2.png'); ?>" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Luke Chesser</h4>
+                  <p>Marketing Executive</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="<?php echo base_url('/assets/img/team/team3.png'); ?>" alt="">
+              <div class="team-details">
+                <div class="team-inner">                  
+                  <h4 class="team-title">David Givens</h4>
+                  <p>Business Manager</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="<?php echo base_url('/assets/img/team/team4.png'); ?>" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Annie Spratt</h4>
+                  <p>Graphic Designer</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- Team section End -->   
 
     <!-- Start Video promo Section -->
     <section class="video-promo section">
@@ -720,6 +803,35 @@
       </div>
     </section> -->
     <!-- Testimonial Section End --> 
+   
+    <!-- Clients Section -->
+    <div id="clients" class="section">
+      <!-- Container Ends -->
+      <div class="container">
+        <!-- Row and Scroller Wrapper Starts -->
+        <div class="row" id="clients-scroller">
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/img1.png'); ?>" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/img2.png'); ?>" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/img3.png'); ?>" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/img4.png'); ?>" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/img5.png'); ?>" alt="">
+          </div>
+          <div class="client-item-wrapper">
+            <img src="<?php echo base_url('/assets/img/clients/img6.png'); ?>" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client Section End --> 
 
     <!-- Call To Action Section Start -->
     <section id="cta" class="section" data-stellar-background-ratio="0.5">
@@ -738,90 +850,8 @@
     </section>
     <!-- Call To Action Section Start -->
 
-    <!-- Team section Start -->
-    <section id="team" class="section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Our Team</h2>
-          <span>Team</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team1.png'); ?>" alt="">
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Jhon Doe</h4>
-                  <p>Chief Technical Officer</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team2.png'); ?>" alt="">
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Luke Chesser</h4>
-                  <p>Marketing Executive</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team3.png'); ?>" alt="">
-              <div class="team-details">
-                <div class="team-inner">                  
-                  <h4 class="team-title">David Givens</h4>
-                  <p>Business Manager</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="<?php echo base_url('/assets/img/team/team4.png'); ?>" alt="">
-              <div class="team-details">
-                <div class="team-inner">
-                  <h4 class="team-title">Annie Spratt</h4>
-                  <p>Graphic Designer</p>
-                  <ul class="social-list">
-                    <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <!-- Team section End -->
-
     <!-- Subcribe Section Start -->
-    <div id="subscribe" class="section">
+    <!-- <div id="subscribe" class="section">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-5 col-md-12 col-xs-12">
@@ -889,41 +919,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Subcribe Section End -->
 
 
-    <!-- Clients Section -->
-    <div id="clients" class="section">
-      <!-- Container Ends -->
-      <div class="container">
-        <!-- Row and Scroller Wrapper Starts -->
-        <div class="row" id="clients-scroller">
-          <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img1.png'); ?>" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img2.png'); ?>" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img3.png'); ?>" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img4.png'); ?>" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img5.png'); ?>" alt="">
-          </div>
-          <div class="client-item-wrapper">
-            <img src="<?php echo base_url('/assets/img/clients/img6.png'); ?>" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Client Section End --> 
-
     <!-- Contact Section Start -->
-    <section id="contact" class="section">      
+    <!-- <section id="contact" class="section">      
       <div class="contact-form">
         <div class="container">
           <div class="section-header">          
@@ -952,30 +953,24 @@
               </div>
             </div>
 
-
-
             <div class="col-lg-3 col-md-3 col-xs-12">
               <div class="contact-deatils">
-                <!-- Content Info -->
                 <div class="contact-info_area">
                   <div class="contact-info">
                     <i class="lni-map"></i>
                     <h5>Location</h5>
                     <p>1900 Pico Blvd, New York br Centernial, colorado</p>
                   </div>
-                  <!-- Content Info -->
                   <div class="contact-info">
                     <i class="lni-star"></i>
                     <h5>E-mail</h5>
                     <p>info@example.com</p>
                   </div>
-                  <!-- Content Info -->
                   <div class="contact-info">
                     <i class="lni-phone"></i>
                     <h5>Phone</h5>
                     <p>+48 123 456 789</p>
                   </div>
-                  <!-- Icon -->
                   <ul class="footer-social">
                     <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
                     <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
@@ -988,7 +983,7 @@
           </div>
         </div>
       </div>            
-    </section>
+    </section> -->
     <!-- Contact Section End -->
     
     <!-- Map Section Start -->
