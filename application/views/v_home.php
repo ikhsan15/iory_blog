@@ -130,7 +130,60 @@
     </section>
     <!-- Services Section End -->
 
-    
+    <!-- Start Pricing Table Section -->
+    <div id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title">Our Services</h2>
+          <span>Services</span>
+          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+        </div>        
+        <div class="row article-more">
+          <!-- partial:index.partial.html -->
+          <div class="grid gap-6 grid-cols-3">
+            <div class="grid__item item w-56 text-black relative">
+              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
+                <div class="font-bold mb-2">Microservices Orchestration</div>
+                <p class="flex-grow mb-2">Temporal is a perfect fit for orchestrating microservices.</p><a href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="grid__item item w-56 text-black relative">
+              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
+                <div class="font-bold mb-2">Financial Transactions</div>
+                <p class="flex-grow mb-2">For software that interacts with money (especially someone else's), reliability and consistency are top priorities.</p><a href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="grid__item item w-56 text-black relative">
+              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
+                <div class="font-bold mb-2">Resource Provisioning</div>
+                <p class="flex-grow mb-2">Provisioning resources depends on a series of potentially long-running operations with many possibilities for intermittent failures.</p><a href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="grid__item item w-56 text-black relative">
+              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
+                <div class="font-bold mb-2">Monitoring</div>
+                <p class="flex-grow mb-2">Temporal provides guaranteed execution with exactly-once semantics with automatic retries.</p><a href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="grid__item item w-56 text-black relative">
+              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
+                <div class="font-bold mb-2">Resource Provisioning</div>
+                <p class="flex-grow mb-2">Provisioning resources depends on a series of potentially long-running operations with many possibilities for intermittent failures.</p><a href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="grid__item item w-56 text-black relative">
+              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
+                <div class="font-bold mb-2">Monitoring</div>
+                <p class="flex-grow mb-2">Temporal provides guaranteed execution with exactly-once semantics with automatic retries.</p><a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!-- partial -->
+        </div>
+      </div>
+    </div>
+    <!-- End Pricing Table Section -->
+
     <!-- Blog Section -->
     <section id="blog" class="section">
       <!-- Container Starts -->
@@ -560,78 +613,6 @@
       <!-- Container Ends -->
     </section>
     <!-- Portfolio Section Ends --> 
-
-    <!-- Start Pricing Table Section -->
-    <!-- <div id="pricing" class="section pricing-section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Pricing Plans</h2>
-          <span>Pricing</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
-        </div>
-
-        <div class="row pricing-tables">
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table">
-              <div class="pricing-details">
-                <h2>Starter Plan</h2>
-                <div class="price">49$ <span>/mo</span></div>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                  <li> - </li>
-                </ul>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-common btn-effect">Get Plan</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table pricing-big">
-              <div class="pricing-details">
-                <h2>Popular Plan</h2>
-                <div class="price">99$ <span>/mo</span></div>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                  <li> - </li>
-                </ul>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-common btn-effect">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table">
-              <div class="pricing-details">
-                <h2>Premium Plan</h2>
-                <div class="price">199$ <span>/mo</span></div>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                  <li>Suspendisse quis metus</li>
-                </ul>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-common btn-effect">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div> -->
-    <!-- End Pricing Table Section -->
 
     <!-- Counter Section Start -->
     <div class="counters section bg-defult">

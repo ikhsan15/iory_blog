@@ -4,7 +4,7 @@
     <?php $this->load->view("admin/_partials/header.php") ?>
   </head>
   
-  <body>
+  <body id="timeline_page">
     <!-- Header Section Start -->
     <header id="slider-area">  
       <?php $this->load->view("admin/_partials/navbar.php") ?>
@@ -12,54 +12,34 @@
     <!-- Header Section End --> 
 
     <!-- Services Section Start -->
-    <section id="services" class="section">
+    <section id="timeline" class="section">
       <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Our Services</h2>
-          <span>Services</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-        </div>        
-        <div class="row article-more">
-          <!-- partial:index.partial.html -->
-          <div class="grid gap-6 grid-cols-3">
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Microservices Orchestration</div>
-                <p class="flex-grow mb-2">Temporal is a perfect fit for orchestrating microservices.</p><a href="#">Learn More</a>
+        <div class="timeline">
+          <?php foreach ($rec_wiseword as $r){ ?>
+            <div class="timeline-container">
+              <div class="timeline-icon">
+                <i></i>
+              </div>
+              <div class="timeline-body">
+                <h4 class="timeline-title">
+                <!-- htmlspecialchars: untuk memastikan tidak ada karakter yang menyebabkan masalah seperti <, >, atau karakter khusus lainnya -->
+                  <span class="badge"><?php echo htmlspecialchars($r->ww_title); ?></span>
+                </h4>
+                <p><?php echo nl2br($r->ww_content); ?></p>
+                <?php 
+                // Cek apakah formatnya benar
+                $date = DateTime::createFromFormat('d/m/Y', $r->ww_date);
+                if($date){
+                  $formattedDate = $date->format('d F Y');
+                }
+                else {
+                  $formattedDate = "Invalid date format";  // Jika parsing gagal
+                }
+                ?>
+                <p class="timeline-subtitle"><?php echo $formattedDate; ?></p>
               </div>
             </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Financial Transactions</div>
-                <p class="flex-grow mb-2">For software that interacts with money (especially someone else's), reliability and consistency are top priorities.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Resource Provisioning</div>
-                <p class="flex-grow mb-2">Provisioning resources depends on a series of potentially long-running operations with many possibilities for intermittent failures.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Monitoring</div>
-                <p class="flex-grow mb-2">Temporal provides guaranteed execution with exactly-once semantics with automatic retries.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Resource Provisioning</div>
-                <p class="flex-grow mb-2">Provisioning resources depends on a series of potentially long-running operations with many possibilities for intermittent failures.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="grid__item item w-56 text-black relative">
-              <div class="item__content h-full w-full p-4 relative border-2 flex flex-col">
-                <div class="font-bold mb-2">Monitoring</div>
-                <p class="flex-grow mb-2">Temporal provides guaranteed execution with exactly-once semantics with automatic retries.</p><a href="#">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <!-- partial -->
+          <?php } ?> 
         </div>
       </div>
     </section>

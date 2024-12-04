@@ -39,9 +39,15 @@ class Home extends CI_Controller{
     $data['method']				= $this->router->fetch_method();
     $data['rNum']					= $rNum;
 
-		$data['rec_poetry']			= $this->db->query("SELECT * FROM public.poetry ORDER BY poe_id ASC");
-		$data['rec_story']			= $this->db->query("SELECT * FROM public.story ORDER BY st_id ASC");
-		$data['rec_wiseword']			= $this->db->query("SELECT * FROM public.wiseword ORDER BY ww_id ASC");
+		$ww_title    		= '';
+		$ww_content    	= '';
+
+		$data['ww_title'] 			= $ww_title;
+		$data['ww_content'] 		= $ww_content;
+
+		$data['rec_poetry']			= $this->db->query("SELECT * FROM public.poetry ORDER BY poe_id DESC")->result();
+		$data['rec_story']			= $this->db->query("SELECT * FROM public.story ORDER BY st_id DESC")->result();
+		$data['rec_wiseword']		= $this->db->query("SELECT * FROM public.wiseword ORDER BY ww_id DESC")->result();
 
     $this->load->view('article/v_article', $data);
 	}
